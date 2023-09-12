@@ -28,8 +28,8 @@ html {
   border-radius: 1rem;
 }
 
-button,
-.display {
+input,
+button {
   border: 0;
   outline: 0;
   width: 6rem;
@@ -53,8 +53,12 @@ button {
   margin: 2rem 0;
 }
 
-.display {
+.display-container .display {
   text-align: right;
   flex: 1;
   font-size: 4.5rem;
+}
+
+.operator {
+  color: #33ffd8;
 }
